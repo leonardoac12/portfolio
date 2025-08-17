@@ -1,0 +1,74 @@
+@media (max-width: 768px) {
+    body {
+        flex-direction: column;
+    }
+    
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+        padding: 1rem;
+    }
+    
+    .content {
+        margin-left: 0;
+        padding: 1rem;
+    }
+    
+    .nav-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+    
+    .nav-links li {
+        margin-bottom: 0;
+    }
+    
+    .nav-links a {
+        padding: 0.5rem;
+    }
+    
+    .download-btn {
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+    
+    .social-links {
+        margin-top: 1rem;
+        padding: 1rem 0;
+    }
+    
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .about-container {
+        flex-direction: column;
+    }
+    
+    .about-photo img {
+        width: 200px;
+        height: 200px;
+    }
+    
+    .greeting, .title {
+        font-size: 1.8rem;
+    }
+    
+    .name {
+        font-size: 2rem;
+    }
+
+    .skills-grid {
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    }
+    
+    .certifications-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .modal-content {
+        max-width: 95%;
+    }
+}
