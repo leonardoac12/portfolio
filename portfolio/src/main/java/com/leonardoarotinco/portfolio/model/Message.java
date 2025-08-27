@@ -4,11 +4,14 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Entity
 @Getter @Setter
+@NoArgsConstructor @AllArgsConstructor
 public class Message {
 
     @Id
@@ -18,12 +21,4 @@ public class Message {
     private String name;
     private String email;
     private String message;
-
-    public Message() { }
-    public Message(Long id, String name, String email, String message) {
-        this.id = id;
-        this.name = name;
-        this.email = email;
-        this.message = message;
-    }
 }
