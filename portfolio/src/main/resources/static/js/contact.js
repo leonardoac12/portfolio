@@ -1,4 +1,3 @@
-// Función principal del formulario
 function initContactForm() {
     const form = document.getElementById('contact-form');
     if (!form) return;
@@ -17,7 +16,6 @@ function initContactForm() {
     });
 }
 
-// Envío de datos y notificación
 async function sendContactForm(data) {
     try {
         const response = await fetch('/api/crear', {
@@ -36,7 +34,6 @@ async function sendContactForm(data) {
     }
 }
 
-// Notificación mejorada
 function showNotification(message, isError = false) {
     const notification = document.getElementById('notification');
     if (!notification) return;

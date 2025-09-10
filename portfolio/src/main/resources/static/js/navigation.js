@@ -1,6 +1,5 @@
-// Smooth scrolling y resaltado de menú
 function initNavigation() {
-    // Smooth scrolling
+
     document.querySelectorAll('.nav-links a:not(.download-btn)').forEach(anchor => {
         anchor.addEventListener('click', function(e) {
             e.preventDefault();
@@ -13,7 +12,6 @@ function initNavigation() {
         });
     });
 
-    // Resaltado de menú activo
     const sections = document.querySelectorAll('.section');
     const navLinks = document.querySelectorAll('.nav-links a:not(.download-btn)');
 
@@ -37,7 +35,6 @@ function initNavigation() {
     setActiveLink();
 }
 
-// Efectos hover para botones sociales
 function initSocialButtons() {
     document.querySelectorAll('.social-btn').forEach(btn => {
         btn.addEventListener('mouseenter', () => btn.style.transform = 'translateY(-3px)');
