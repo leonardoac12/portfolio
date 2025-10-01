@@ -1,9 +1,9 @@
-FROM openjdk:17-oracle AS builder
+FROM eclipse-temurin:17-jdk-jammy AS builder
 WORKDIR /app
 COPY . .
-RUN mvn clean package -DskipTests
+RUN ./mvnw clean package -DskipTests
 
-FROM openjdk:17-jdk-slim
+FROM eclipse-temurin:17-jre-jammy
 WORKDIR /app
 COPY --from=builder /app/target/portfolio-0.0.1.jar portfolio_app.jar
 EXPOSE 8080
