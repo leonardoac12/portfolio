@@ -13,9 +13,8 @@ public class MessageController {
     @Autowired
     private IMessageService messageService;
 
-    @PostMapping("/api/crear")
-    public String createMessage(@RequestBody Message message){
+    @PostMapping("/")
+    public void createMessage(@RequestBody Message message) {
         messageService.saveMessage(message);
-        return "Mensaje creado correctamente.";
     }
 }
