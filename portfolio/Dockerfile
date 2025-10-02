@@ -3,7 +3,7 @@ WORKDIR /app
 COPY . .
 RUN mvn clean package -DskipTests
 
-FROM eclipse-temurin:17-jre-jammy
+FROM eclipse-temurin:17-alpine
 WORKDIR /app
 COPY --from=builder /app/target/portfolio-0.0.1.jar portfolio_app.jar
 EXPOSE 8080
