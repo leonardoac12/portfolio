@@ -77,7 +77,7 @@
             <!-- Entorno Java -->
             <div class="skills-subcategory">
                 <h4>Entorno Java</h4>
-                <div class="skills-grid">
+                <div translate="no" class="skills-grid">
                     <div class="skill-item">
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" draggable="false">
                         <span>Java</span>
@@ -101,7 +101,7 @@
             <!-- Base de datos y herramientas -->
             <div class="skills-subcategory">
                 <h4>Base de datos y herramientas</h4>
-                <div class="skills-grid">
+                <div translate="no" class="skills-grid">
                     <div class="skill-item">
                         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
                             alt="MySQL" draggable="false">
@@ -164,7 +164,7 @@
                     <div class="project-content">
                         <h3>Portfolio</h3>
                         <p>Presente portfolio para el manejo de mi información como desarrollador.</p>
-                        <div class="project-tech">
+                        <div translate="no" class="project-tech">
                             <span>HTML</span>
                             <span>CSS</span>
                             <span>Javascript</span>
@@ -186,7 +186,7 @@
                     <div class="project-content">
                         <h3>TF2 API</h3>
                         <p>API REST de Team Fortress 2 para práctica en desarrollo frontend, al estilo PókeAPI.</p>
-                        <div class="project-tech">
+                        <div translate="no" class="project-tech">
                             <span>Java</span>
                             <span>Spring Boot</span>
                             <span>Spring Data</span>
@@ -202,24 +202,41 @@
 
         <section id="contacto" class="section">
             <h2>Contacto</h2>
-            <form id="contact-form" class="contact-form">
-                <div class="form-group">
-                    <input type="text" id="name" name="name" required placeholder=" ">
-                    <label for="name">Nombre</label>
+            <div class="contact-container">
+
+                <div class="contact-info">
+                    <div class="info-text">
+                        <h3>¿Te interesó mi proyecto?</h3>
+                        <p>Estoy disponible para <span class="highlight">colaborar</span> en proyectos backend con Java Spring.</p>
+                        <p>Si tienes un proyecto interesante o necesitas un desarrollador backend para tu equipo, me encantaría conocer más al respecto.</p>
+                        <p>Puedes contactarme directamente a través de este formulario, responderé lo más pronto posible.</p></div>
+                    <div class="info-image">
+                        <img src="/images/contact-image.png" alt="Colaboración" draggable="false">
+                    </div>
                 </div>
-                <div class="form-group">
-                    <input type="email" id="email" name="email" required placeholder=" ">
-                    <label for="email">Correo</label>
-                </div>
-                <div class="form-group">
-                    <textarea id="message" name="message" required placeholder=" "></textarea>
-                    <label for="message">Mensaje</label>
-                </div>
-                <button type="submit" class="submit-btn">
-                    <span>Enviar</span>
-                    <i class="fas fa-paper-plane"></i>
-                </button>
-            </form>
+
+                <!-- Formulario -->
+                <form id="contact-form" class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required placeholder=" ">
+                        <label for="name">Nombre</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required placeholder=" ">
+                        <label for="email">Correo</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" required placeholder=" "></textarea>
+                        <label for="message">Mensaje</label>
+                    </div>
+                    <button type="submit" class="submit-btn">
+                        <span>Enviar</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+
+            <!-- Notificación -->
             <div id="notification" class="notification">
                 <i class="notification-icon fas fa-check-circle"></i>
                 <span class="notification-message">Mensaje enviado.</span>
