@@ -1,7 +1,7 @@
 .contact-container {
     display: flex;
     gap: 3rem;
-    align-items: flex-start;
+    align-items: stretch;
     max-width: 1000px;
     margin: 0 auto;
 }
@@ -14,6 +14,9 @@
     background: var(--dark-surface);
     border-radius: var(--border-radius);
     box-shadow: var(--box-shadow);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .form-group {
@@ -90,11 +93,16 @@
     flex: 1;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    justify-content: space-between;
+    gap: 1rem;
     padding: 2rem;
     background: var(--dark-surface);
     border-radius: var(--border-radius);
     box-shadow: var(--box-shadow);
+}
+
+.info-text {
+    flex: 1;
 }
 
 .info-text h3 {
@@ -116,12 +124,16 @@
 }
 
 .info-image {
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
 }
 
 .info-image img {
+    max-width: 220px;
     width: 100%;
-    max-width: 300px;
+    height: auto;
     border-radius: var(--border-radius);
 }
 
