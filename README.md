@@ -1,13 +1,20 @@
 # Portfolio de Leonardo Arotinco
 
-Este es mi portfolio profesional donde muestro y despliego mis proyectos, habilidades y experiencia en desarrollo web. Aquí podrás encontrar información sobre mí, mis capacidades técnicas y los trabajos que he realizado.
+Este es mi portfolio profesional donde muestro mis proyectos, habilidades y experiencia en desarrollo backend. Aquí podrás conocer mi perfil técnico, los trabajos que he realizado y cómo contactarme.
 
-Cuenta con las siguientes secciones:
-- **Sobre Mi:** Un resumen y presentación mío.
-- **Habilidades:** La sección donde se encuentran los conocimientos técnicos que he aprendido, herramientas que utilizo en mis distintos proyectos y certificados obtenidos.
-- **Proyectos:** Conjunto de mis proyectos realizados coleccionando mi experiencia como desarrollador backend.
-- **Contacto:** Un formulario sencillo donde puedes contactarme conmigo, responderé lo más pronto posible al e-mail relacionado.
+Puedes ingresar [aquí](https://alexander-arotinco-portfolio.onrender.com): https://alexander-arotinco-portfolio.onrender.com
 
-### Desarrollado con:
-- **Frontend:** HTML - CSS - Javascript
-- **Backend:** Java - SpringBoot - Spring Data JPA
+## ✨ Secciones del Portfolio
+
+- **👤 Sobre Mí:** Presentación personal y mi enfoque como desarrollador backend
+- **🛠️ Habilidades:** Conocimientos técnicos, herramientas que domino y certificaciones obtenidas
+- **🚀 Proyectos:** Colección de mis trabajos que demuestran mi experiencia en desarrollo backend
+- **📧 Contacto:** Formulario para comunicarte directamente conmigo
+
+## 🛠️ Tecnologías Utilizadas
+
+### Frontend
+- **HTML** - **CSS** - **Javascript**
+
+### Backend
+- **Java** - **Spring Boot** - **Spring Data JPA**
