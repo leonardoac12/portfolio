@@ -3,5 +3,4 @@ document.addEventListener('DOMContentLoaded', function() {
     initSocialButtons();
     initModal();
     initContactForm();
-    initMobileMenu();
 });
