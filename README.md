@@ -17,4 +17,4 @@ Puedes ingresar [aquí](https://portfolio-rtp-xa.fly.dev/): https://portfolio-rt
 - **HTML** - **CSS** - **Javascript**
 
 ### Backend
-- **Java** - **Spring Boot** - **Spring Data JPA**
+- **Java** - **Spring Boot** - **Spring Data JPA** - **MySQL**
